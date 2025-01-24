@@ -124,14 +124,11 @@ import 'package:dart_exam_24_01_25/dart_exam_24_01_25.dart' as dart_exam_24_01_2
 //     {
 //         for (num i=0; i<lim; i++)
 //         {
-//             if(i==0){print(n1);}
-//             else if (i==1){print(n2);}
-//             else
-//             {
+//                 print(n1); 
 //                 n3=n1+n2;
 //                 n1=n2;
 //                 n2=n3;
-//                 print(n2);            }
+                          
 //         }
 //     }
 // }
@@ -177,41 +174,41 @@ import 'package:dart_exam_24_01_25/dart_exam_24_01_25.dart' as dart_exam_24_01_2
 
 
 
-void main()
-{
+// void main()
+// {
    
-    num largestOfThree(num a, num b, num c)
-    {
-        num l=a;
-        if(b>c)
-        {
-            if(b>a)
-            {
-                l=b;
-            }
-        }
-        else
-        {
-            if(c>a)
-            {
-                l=c;
-            }
-        }
-        return l;
+//     num largestOfThree(num a, num b, num c)
+//     {
+//         num l=a;
+//         if(b>c)
+//         {
+//             if(b>a)
+//             {
+//                 l=b;
+//             }
+//         }
+//         else
+//         {
+//             if(c>a)
+//             {
+//                 l=c;
+//             }
+//         }
+//         return l;
 
-    }
+//     }
 
 
 
-     print("Warning !!!!   Invalid Entry will consider  as a zero ");
-    stdout.write("enter first number : ");
-    num n1 = num.tryParse(stdin.readLineSync()!)??0;
-    stdout.write("enter second number : ");
-    num n2 = num.tryParse(stdin.readLineSync()!)??0;
-    stdout.write("enter third number : ");
-    num n3 = num.tryParse(stdin.readLineSync()!)??0;
+//      print("Warning !!!!   Invalid Entry will consider  as a zero ");
+//     stdout.write("enter first number : ");
+//     num n1 = num.tryParse(stdin.readLineSync()!)??0;
+//     stdout.write("enter second number : ");
+//     num n2 = num.tryParse(stdin.readLineSync()!)??0;
+//     stdout.write("enter third number : ");
+//     num n3 = num.tryParse(stdin.readLineSync()!)??0;
 
-    num large = largestOfThree(n1,n2,n3);
+//     num large = largestOfThree(n1,n2,n3);
 
-    print("The largest number among $n1, $n2 & $n3 is $large");
-}
+//     print("The largest number among $n1, $n2 & $n3 is $large");
+// }
